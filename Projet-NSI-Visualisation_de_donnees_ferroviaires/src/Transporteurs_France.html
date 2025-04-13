@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ebeb7552f32a4d528241ddfa6c09d5de {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ebeb7552f32a4d528241ddfa6c09d5de" ></div>
+        
+</body>
+<script>    
+    
+            var map_ebeb7552f32a4d528241ddfa6c09d5de = L.map(
+                "map_ebeb7552f32a4d528241ddfa6c09d5de",
+                {
+                    center: [46.254948999999996, 4.7994895],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_56a8e64f7f1242cc957e2676491b7319 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ebeb7552f32a4d528241ddfa6c09d5de);
+        
+    
+            var feature_group_6582bd90b38a43e8831b4115cc88b2eb = L.featureGroup(
+                {}
+            ).addTo(map_ebeb7552f32a4d528241ddfa6c09d5de);
+        
+    
+            var marker_7832f90dd6d74655a04140ea7dfb58fc = L.marker(
+                [43.704556, 7.261904],
+                {}
+            ).addTo(feature_group_6582bd90b38a43e8831b4115cc88b2eb);
+        
+    
+        var popup_c0bbdbb5cb5f49b59eb04947476fa00b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_980e4424c4a648e19a6e53532e526f0c = $(`<div id="html_980e4424c4a648e19a6e53532e526f0c" style="width: 100.0%; height: 100.0%;">nice (25746 personnes par jour)</div>`)[0];
+            popup_c0bbdbb5cb5f49b59eb04947476fa00b.setContent(html_980e4424c4a648e19a6e53532e526f0c);
+        
+
+        marker_7832f90dd6d74655a04140ea7dfb58fc.bindPopup(popup_c0bbdbb5cb5f49b59eb04947476fa00b)
+        ;
+
+        
+    
+    
+            var marker_d9e244657c634880bb06a3b11292be5e = L.marker(
+                [48.83917, 2.38278],
+                {}
+            ).addTo(feature_group_6582bd90b38a43e8831b4115cc88b2eb);
+        
+    
+        var popup_d6a3231779a74e2d995b8bd6a2a830b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bad49e6066a749f7b2a10dbb66c517b1 = $(`<div id="html_bad49e6066a749f7b2a10dbb66c517b1" style="width: 100.0%; height: 100.0%;">paris bercy bourgogne - pays d'auvergne (13054 personnes par jour)</div>`)[0];
+            popup_d6a3231779a74e2d995b8bd6a2a830b7.setContent(html_bad49e6066a749f7b2a10dbb66c517b1);
+        
+
+        marker_d9e244657c634880bb06a3b11292be5e.bindPopup(popup_d6a3231779a74e2d995b8bd6a2a830b7)
+        ;
+
+        
+    
+    
+            var feature_group_526ca313209441e4b0c3619acdf99cdb = L.featureGroup(
+                {}
+            ).addTo(map_ebeb7552f32a4d528241ddfa6c09d5de);
+        
+    
+            var marker_4c100d64f9af4909af046f3e7652275c = L.marker(
+                [47.32337, 5.027208],
+                {}
+            ).addTo(feature_group_526ca313209441e4b0c3619acdf99cdb);
+        
+    
+        var popup_2e75aa18d2ff488484878ef22414cbdd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca0859283dfd41f59e61d8522c08e191 = $(`<div id="html_ca0859283dfd41f59e61d8522c08e191" style="width: 100.0%; height: 100.0%;">dijon (19401 personnes par jour)</div>`)[0];
+            popup_2e75aa18d2ff488484878ef22414cbdd.setContent(html_ca0859283dfd41f59e61d8522c08e191);
+        
+
+        marker_4c100d64f9af4909af046f3e7652275c.bindPopup(popup_2e75aa18d2ff488484878ef22414cbdd)
+        ;
+
+        
+    
+    
+            var poly_line_4f0e836ceb7242b28b1d0adee29b15f0 = L.polyline(
+                [[48.83917, 2.38278], [47.32337, 5.027208]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_526ca313209441e4b0c3619acdf99cdb);
+        
+    
+        var popup_16eaf47e062b4dd1bcea47607b1be90e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_538f6b56f7694cd4a3276cf85dde6979 = $(`<div id="html_538f6b56f7694cd4a3276cf85dde6979" style="width: 100.0%; height: 100.0%;">tarif moyen = 64 euros</div>`)[0];
+            popup_16eaf47e062b4dd1bcea47607b1be90e.setContent(html_538f6b56f7694cd4a3276cf85dde6979);
+        
+
+        poly_line_4f0e836ceb7242b28b1d0adee29b15f0.bindPopup(popup_16eaf47e062b4dd1bcea47607b1be90e)
+        ;
+
+        
+    
+    
+            var poly_line_29591a0a3c15458eb9f9fcf304527834 = L.polyline(
+                [[48.83917, 2.38278], [47.32337, 5.027208]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_526ca313209441e4b0c3619acdf99cdb);
+        
+    
+        var popup_5debc8fb42614032b12996519ae8c781 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0f03e3830cf441f91ed1cc47dd03d45 = $(`<div id="html_e0f03e3830cf441f91ed1cc47dd03d45" style="width: 100.0%; height: 100.0%;">tarif moyen = 64 euros</div>`)[0];
+            popup_5debc8fb42614032b12996519ae8c781.setContent(html_e0f03e3830cf441f91ed1cc47dd03d45);
+        
+
+        poly_line_29591a0a3c15458eb9f9fcf304527834.bindPopup(popup_5debc8fb42614032b12996519ae8c781)
+        ;
+
+        
+    
+    
+            var poly_line_58ee0213763e40739f50a955c2286208 = L.polyline(
+                [[47.32337, 5.027208], [43.704556, 7.261904]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_526ca313209441e4b0c3619acdf99cdb);
+        
+    
+        var popup_1b171f73ae36490a804cb75e2c198927 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df0f8f0afb1c463f93103b559d47149a = $(`<div id="html_df0f8f0afb1c463f93103b559d47149a" style="width: 100.0%; height: 100.0%;">tarif moyen = 82 euros</div>`)[0];
+            popup_1b171f73ae36490a804cb75e2c198927.setContent(html_df0f8f0afb1c463f93103b559d47149a);
+        
+
+        poly_line_58ee0213763e40739f50a955c2286208.bindPopup(popup_1b171f73ae36490a804cb75e2c198927)
+        ;
+
+        
+    
+    
+            var poly_line_706eb5549d554a478790cb0d758c06df = L.polyline(
+                [[47.32337, 5.027208], [43.704556, 7.261904]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_526ca313209441e4b0c3619acdf99cdb);
+        
+    
+        var popup_b5e01a0915d54ffcbb18fd339030a49f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20a4f21e90c345d88245839458adfac2 = $(`<div id="html_20a4f21e90c345d88245839458adfac2" style="width: 100.0%; height: 100.0%;">tarif moyen = 82 euros</div>`)[0];
+            popup_b5e01a0915d54ffcbb18fd339030a49f.setContent(html_20a4f21e90c345d88245839458adfac2);
+        
+
+        poly_line_706eb5549d554a478790cb0d758c06df.bindPopup(popup_b5e01a0915d54ffcbb18fd339030a49f)
+        ;
+
+        
+    
+    
+            var poly_line_8d790f6177eb484e9290866625d12251 = L.polyline(
+                [[47.32337, 5.027208], [43.704556, 7.261904]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_526ca313209441e4b0c3619acdf99cdb);
+        
+    
+        var popup_60c3ffd239ee4104bdb027a529408e98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59f6e99710a34d8f9d2ec4ebf1db797f = $(`<div id="html_59f6e99710a34d8f9d2ec4ebf1db797f" style="width: 100.0%; height: 100.0%;">tarif moyen = 82 euros</div>`)[0];
+            popup_60c3ffd239ee4104bdb027a529408e98.setContent(html_59f6e99710a34d8f9d2ec4ebf1db797f);
+        
+
+        poly_line_8d790f6177eb484e9290866625d12251.bindPopup(popup_60c3ffd239ee4104bdb027a529408e98)
+        ;
+
+        
+    
+    
+            var poly_line_e3e7cfb9970f400e9021b8a934437854 = L.polyline(
+                [[47.32337, 5.027208], [43.704556, 7.261904]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_526ca313209441e4b0c3619acdf99cdb);
+        
+    
+        var popup_df7d5f4ff26446fdb26fb77e8a8ff639 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37a083adee9942da8fb647cd479e4e32 = $(`<div id="html_37a083adee9942da8fb647cd479e4e32" style="width: 100.0%; height: 100.0%;">tarif moyen = 82 euros</div>`)[0];
+            popup_df7d5f4ff26446fdb26fb77e8a8ff639.setContent(html_37a083adee9942da8fb647cd479e4e32);
+        
+
+        poly_line_e3e7cfb9970f400e9021b8a934437854.bindPopup(popup_df7d5f4ff26446fdb26fb77e8a8ff639)
+        ;
+
+        
+    
+    
+            var feature_group_b370fa094b3e462ca1d167c2fc27bf2a = L.featureGroup(
+                {}
+            ).addTo(map_ebeb7552f32a4d528241ddfa6c09d5de);
+        
+    
+            var marker_5470483748cc4d4f943b425c1af2982a = L.marker(
+                [45.760559, 4.859355],
+                {}
+            ).addTo(feature_group_b370fa094b3e462ca1d167c2fc27bf2a);
+        
+    
+        var popup_5bc44b88056746cabcecd40fe56a12b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5db70d8595264c9fbebe6154a177f3cf = $(`<div id="html_5db70d8595264c9fbebe6154a177f3cf" style="width: 100.0%; height: 100.0%;">lyon part dieu (100160 personnes par jour)</div>`)[0];
+            popup_5bc44b88056746cabcecd40fe56a12b4.setContent(html_5db70d8595264c9fbebe6154a177f3cf);
+        
+
+        marker_5470483748cc4d4f943b425c1af2982a.bindPopup(popup_5bc44b88056746cabcecd40fe56a12b4)
+        ;
+
+        
+    
+    
+            var marker_d0a782bbfd3e47b4b96a0b2c58717efe = L.marker(
+                [43.455237, 5.317534],
+                {}
+            ).addTo(feature_group_b370fa094b3e462ca1d167c2fc27bf2a);
+        
+    
+        var popup_08cf27762ad048cf956be67a910c1006 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d81025fd506740f7b266ace3e1f01d85 = $(`<div id="html_d81025fd506740f7b266ace3e1f01d85" style="width: 100.0%; height: 100.0%;">aix-en-provence tgv (10246 personnes par jour)</div>`)[0];
+            popup_08cf27762ad048cf956be67a910c1006.setContent(html_d81025fd506740f7b266ace3e1f01d85);
+        
+
+        marker_d0a782bbfd3e47b4b96a0b2c58717efe.bindPopup(popup_08cf27762ad048cf956be67a910c1006)
+        ;
+
+        
+    
+    
+            var poly_line_af143dda129d428db987ea283c5d70cb = L.polyline(
+                [[48.83917, 2.38278], [45.760559, 4.859355]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_b370fa094b3e462ca1d167c2fc27bf2a);
+        
+    
+        var popup_86b392f11b2741559c3ef8be40c73337 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_230fa7168f0c47bcb70e76684d4cf524 = $(`<div id="html_230fa7168f0c47bcb70e76684d4cf524" style="width: 100.0%; height: 100.0%;">tarif moyen = 29 euros</div>`)[0];
+            popup_86b392f11b2741559c3ef8be40c73337.setContent(html_230fa7168f0c47bcb70e76684d4cf524);
+        
+
+        poly_line_af143dda129d428db987ea283c5d70cb.bindPopup(popup_86b392f11b2741559c3ef8be40c73337)
+        ;
+
+        
+    
+    
+            var poly_line_bad7d7970cc9430fa25d8af60f18c342 = L.polyline(
+                [[45.760559, 4.859355], [43.455237, 5.317534]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_b370fa094b3e462ca1d167c2fc27bf2a);
+        
+    
+        var popup_1081c79cdfc149efbbadabc7f148e3b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ba116d430494e989882f854dac99b26 = $(`<div id="html_5ba116d430494e989882f854dac99b26" style="width: 100.0%; height: 100.0%;">tarif moyen = 39 euros</div>`)[0];
+            popup_1081c79cdfc149efbbadabc7f148e3b2.setContent(html_5ba116d430494e989882f854dac99b26);
+        
+
+        poly_line_bad7d7970cc9430fa25d8af60f18c342.bindPopup(popup_1081c79cdfc149efbbadabc7f148e3b2)
+        ;
+
+        
+    
+    
+            var poly_line_2d91f969e9cc4e19ba047541cf72dfc8 = L.polyline(
+                [[43.455237, 5.317534], [43.704556, 7.261904]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_b370fa094b3e462ca1d167c2fc27bf2a);
+        
+    
+        var popup_592c22cc2ea449ed903d0b0069710338 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3cc87ec567c44f6981d50244aca3f7a8 = $(`<div id="html_3cc87ec567c44f6981d50244aca3f7a8" style="width: 100.0%; height: 100.0%;">tarif moyen = 24 euros</div>`)[0];
+            popup_592c22cc2ea449ed903d0b0069710338.setContent(html_3cc87ec567c44f6981d50244aca3f7a8);
+        
+
+        poly_line_2d91f969e9cc4e19ba047541cf72dfc8.bindPopup(popup_592c22cc2ea449ed903d0b0069710338)
+        ;
+
+        
+    
+    
+            var feature_group_d362afc104e44024917dfccb6c288915 = L.featureGroup(
+                {}
+            ).addTo(map_ebeb7552f32a4d528241ddfa6c09d5de);
+        
+    
+            var poly_line_c81c49ff3baf4cb6a6e59c36ab0fba5d = L.polyline(
+                [[48.83917, 2.38278], [43.704556, 7.261904]],
+                {"bubblingMouseEvents": true, "color": "magenta", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "magenta", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_d362afc104e44024917dfccb6c288915);
+        
+    
+        var popup_a82fd332c394442a9c3ee3d66e5cd580 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d47d87134ee24a44801bde72d1dcc717 = $(`<div id="html_d47d87134ee24a44801bde72d1dcc717" style="width: 100.0%; height: 100.0%;">coût total moyen = 146 euros</div>`)[0];
+            popup_a82fd332c394442a9c3ee3d66e5cd580.setContent(html_d47d87134ee24a44801bde72d1dcc717);
+        
+
+        poly_line_c81c49ff3baf4cb6a6e59c36ab0fba5d.bindPopup(popup_a82fd332c394442a9c3ee3d66e5cd580)
+        ;
+
+        
+    
+    
+            var feature_group_b6fe4305c9a24792a2468a384ee7421c = L.featureGroup(
+                {}
+            ).addTo(map_ebeb7552f32a4d528241ddfa6c09d5de);
+        
+    
+            var poly_line_9333f3c5efa94878b595220b7f46d4f5 = L.polyline(
+                [[48.83917, 2.38278], [43.704556, 7.261904]],
+                {"bubblingMouseEvents": true, "color": "magenta", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "magenta", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(feature_group_b6fe4305c9a24792a2468a384ee7421c);
+        
+    
+        var popup_a2ac8b8ae58f446c9202fb6877f9fcd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8687b02a52474d2583d67ba9ca47fc25 = $(`<div id="html_8687b02a52474d2583d67ba9ca47fc25" style="width: 100.0%; height: 100.0%;">coût total moyen = 92 euros</div>`)[0];
+            popup_a2ac8b8ae58f446c9202fb6877f9fcd4.setContent(html_8687b02a52474d2583d67ba9ca47fc25);
+        
+
+        poly_line_9333f3c5efa94878b595220b7f46d4f5.bindPopup(popup_a2ac8b8ae58f446c9202fb6877f9fcd4)
+        ;
+
+        
+    
+    
+            var layer_control_c321301d4c3d41e793815574e2f5b031 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_56a8e64f7f1242cc957e2676491b7319,
+                },
+                overlays :  {
+                    "Trajet TGV INOUI" : feature_group_526ca313209441e4b0c3619acdf99cdb,
+                    "Trajet OUIGO" : feature_group_b370fa094b3e462ca1d167c2fc27bf2a,
+                    "TOTAL TGV INOUI" : feature_group_d362afc104e44024917dfccb6c288915,
+                    "TOTAL OUIGO" : feature_group_b6fe4305c9a24792a2468a384ee7421c,
+                },
+            };
+            L.control.layers(
+                layer_control_c321301d4c3d41e793815574e2f5b031.base_layers,
+                layer_control_c321301d4c3d41e793815574e2f5b031.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_ebeb7552f32a4d528241ddfa6c09d5de);
+            feature_group_526ca313209441e4b0c3619acdf99cdb.remove();
+            feature_group_b370fa094b3e462ca1d167c2fc27bf2a.remove();
+            feature_group_b6fe4305c9a24792a2468a384ee7421c.remove();
+        
+</script>
